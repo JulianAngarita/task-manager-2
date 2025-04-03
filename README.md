@@ -10,3 +10,5 @@ Los cambios hechos para este proyecto, incluye un sistema de carpetas
 estan diferenciadas el home, las interfaces, los servicios y los componentes.
 Asi como tambien estan implementandas las configuraciones para la utilizacion
 del local storage, y de fire base (remote config).
+
+Tambien la configuracion para usar cordova en lugar de capacitator (como viene por defecto)
