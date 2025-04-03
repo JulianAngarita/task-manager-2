@@ -1,0 +1,70 @@
+ion-content {
+    --background: #121212;
+    // color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilo del Header */
+ion-toolbar {
+    --background: transparent;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Estilo de los Acordeones (Categorías) */
+ion-accordion {
+    --background: #1e1e1e;
+    --color: white;
+    border-radius: 12px;
+    margin: 10px 0;
+    padding: 8px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilo de las Tareas */
+ion-item {
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botón de Acción (Flotante) */
+ion-fab-button {
+    --background: #007bff;
+    --color: white;
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+ion-fab-button:hover {
+    background: #0056b3;
+}
+
+
+ion-button[color="danger"] {
+    --color: #ff4444;
+}
+
+ion-button[color="danger"]:hover {
+    --color: #ff7777;
+}
+
+ion-button[color="success"] {
+    --color: #28a745;
+}
+
+ion-button[color="success"]:hover {
+    --color: #40c463;
+}
+
+/* Iconos */
+ion-icon {
+    font-size: 22px;
+}
